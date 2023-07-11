@@ -76,6 +76,26 @@ a:hover {
     background-color: #345140;
 }
 
+/*  Breadcrumb ------------------------------- */
+
+#breadcrumb {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Lexend', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+#breadcrumb a {
+    color: black;
+    text-decoration: none;
+}
+
+#breadcrumb span {
+    padding: 5px;
+}
+
 /*  Recommended products --------------------------------- */
 
 .recommendedItem {
