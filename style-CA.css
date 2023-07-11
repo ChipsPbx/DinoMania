@@ -1,0 +1,96 @@
+
+/* Styles Page Compte client ---------------------------------------------------- */
+
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Account content --------------------------------------------------------------- */
+
+#accountContent {
+    padding: 50px;
+    padding-top: 5px;
+    max-width: 70%;
+}
+
+#accountContent h2 {
+    background-color: #424242;
+    vertical-align: middle;
+    padding: 10px 10px;
+    color: white;
+}
+
+#accountContent h3 {
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.accountSection {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.orderTable {
+    text-align: left;
+    table-layout: auto;
+    width: 100%;
+}
+
+.orderTable th {
+    border-bottom: 1px solid #D9D9D9;
+    padding: 10px 15px;
+
+}
+
+.orderTable td {
+    padding: 10px 15px;
+}
+
+/* Navigation latérale Page Compte client ---------------------------------------------------- */
+
+.accountNav {
+    background-color: #D9D9D9;
+    min-width: 300px;
+    max-height: 385px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 20px;
+}
+
+.accountNav a {
+    color: black;
+    padding: 10px 30px;
+    display: block;
+}
+
+.accountNav a:hover {
+    color: #D9D9D9;
+    background-color: #424242;
+}
+
+.accountNav hr {
+    border: 1px solid #424242
+}
+
+.navItems {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Media queries -------------------------------------------------------------- */
+
+@media screen and (max-width:700px) {
+    .accountNav {
+        display: none;
+    }
+    .accountContent {
+        max-width: 100%;
+    }
+}

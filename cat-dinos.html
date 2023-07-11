@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue - DinoMania</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style-catalogue.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+   
+    <!-- Insérer header -->
+
+    <main class="container">
+        <header id="catalogTop" class="row">
+            <!-- Breadcrumb -->
+            <nav id="breadcrumb" class="col-lg-6 col-xs-12">
+                <a href="/">Accueil</a></li> <span> > </span>
+                <a href="#" class="linkSelected">Catalogue dinos</a>
+            </nav>
+            <!-- Catalog filter -->
+            <nav id="catalogFilter" class="col-lg-6 col-xs-12">
+                <div class="filterContent">
+                    <span>Trier par ordre de prix</span>
+                    <label for="priceSelect">
+                        <select name="prices" id="priceSelect">
+                            <option value="recommended">A la une</option>       
+                            <option value="croissant">Croissant</option>
+                            <option value="decroissant">Décroissant</option>
+                        </select>
+                    </label>
+                </div>
+            </nav>
+        </header>
+
+        <div id="catalogMain" class="row">
+            <!-- Sidebar nav -->
+            <nav id="catalogNav" class="col-3">
+                <div class="catalogNavContainer">
+                    <ul>
+                        <li id="dinoCat" class="mainCat"><a href="#">Dinosaures</a></li>
+                        <ul>
+                            <li class="subCat"><a href="#">Dino de compagnie</a></li>
+                            <li class="subCat"><a href="#">Dino de sécurité</a></li>
+                            <li class="subCat"><a href="#">Dino d'assistance professionnelle</a></li>
+                        </ul>
+                        <li class="mainCat"><a href="#">Accessoires</a></li>
+                        <ul>
+                            <li class="subCat"><a href="#">Jouets</a></li>
+                            <li class="subCat"><a href="#">Abris protectifs</a></li>
+                            <li class="subCat"><a href="#">Outillages</a></li>
+                        </ul>
+                        <li class="mainCat"><a href="#">Nourriture</a></li>
+                        <ul>
+                            <li class="subCat"><a href="#">Croquettes bio</a></li>
+                            <li class="subCat"><a href="#">Boissons protéinées</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </nav>
+            <!--  -->
+            <section id="catalogContent" class="col-9 container">
+                <h1>Nos dinosaures</h1>
+                <div class="row">
+                    <div class="recommendedItem col-lg-4 col-xs-12">
+                        <div class="productContainer">
+                            <div class="recommendedOverlay">
+                                <a href="#" class="overlayButton">Acheter</a>
+                            </div>
+                            <img src="images/Wahim-Triceratops.jpg" alt="Wahim" class="productImage">
+                            <div class="productCat">Wahim</div>
+                            <div class="productPrice">1499,99€</div>
+                        </div>
+                    </div>
+                    <div class="recommendedItem col-lg-4 col-xs-12">
+                        <div class="productContainer">
+                            <div class="recommendedOverlay">
+                                <a href="#" class="overlayButton">Acheter</a>
+                            </div>
+                            <img src="images/Oceane-Nothosaure.jpg" alt="Océane" class="productImage">
+                            <div class="productCat">Océane</div>
+                            <div class="productPrice">1999,99€</div>
+                        </div>
+                    </div>
+                    <div class="recommendedItem col-lg-4 col-xs-12">
+                        <div class="productContainer">
+                            <div class="recommendedOverlay">
+                                <a href="#" class="overlayButton">Acheter</a>
+                            </div>
+                            <img src="images/Raph-Pterosaur.jpg" alt="Raph" class="productImage">
+                            <div class="productCat">Raph</div>
+                            <div class="productPrice">499,99€</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="recommendedItem col-lg-4 col-xs-12">
+                        <div class="productContainer">
+                            <div class="recommendedOverlay">
+                                <a href="#" class="overlayButton">Acheter</a>
+                            </div>
+                            <img src="images/David-Pterosaur.jpg" alt="David" class="productImage">
+                            <div class="productCat">David</div>
+                            <div class="productPrice">899,99€</div>
+                        </div>
+                    </div>
+                    <div class="recommendedItem col-lg-4 col-xs-12">
+                        <div class="productContainer">
+                            <div class="recommendedOverlay">
+                                <a href="#" class="overlayButton">Acheter</a>
+                            </div>
+                            <img src="images/Thomas.jpg" alt="Thomas" class="productImage">
+                            <div class="productCat">Thomas</div>
+                            <div class="productPrice">659,99€</div>
+                        </div>
+                    </div>
+                    <div class="recommendedItem col-lg-4 col-xs-12">
+                        <div class="productContainer">
+                            <div class="recommendedOverlay">
+                                <a href="#" class="overlayButton">Acheter</a>
+                            </div>
+                            <img src="images/Leila-Pteranodon.jpg" alt="Leila" class="productImage">
+                            <div class="productCat">Leila</div>
+                            <div class="productPrice">2149,99€</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="recommendedItem col-lg-4 col-xs-12">
+                        <div class="productContainer">
+                            <div class="recommendedOverlay">
+                                <a href="#" class="overlayButton">Acheter</a>
+                            </div>
+                            <img src="images/Dam-Parasaurolophus.jpg" alt="Dam" class="productImage">
+                            <div class="productCat">Dam</div>
+                            <div class="productPrice">1499,99€</div>
+                        </div>
+                    </div>
+                    <div class="recommendedItem col-lg-4 col-xs-12">
+                        <div class="productContainer">
+                            <div class="recommendedOverlay">
+                                <a href="#" class="overlayButton">Acheter</a>
+                            </div>
+                            <img src="images/Jerome-TyrannosaurusRex.jpg" alt="Jerôme" class="productImage">
+                            <div class="productCat">Jerôme</div>
+                            <div class="productPrice">869,99€</div>
+                        </div>
+                    </div>
+                    <div class="recommendedItem col-lg-4 col-xs-12">
+                        <div class="productContainer">
+                            <div class="recommendedOverlay">
+                                <a href="#" class="overlayButton">Acheter</a>
+                            </div>
+                            <img src="images/Stephanie-Ceratopsian.jpg" alt="Stéphanie" class="productImage">
+                            <div class="productCat">Stéphanie</div>
+                            <div class="productPrice">519,99€</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- Insérer footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

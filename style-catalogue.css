@@ -1,0 +1,91 @@
+/* Top --------------------------------------- */
+
+#catalogTop {
+    min-height: 50px;
+}
+
+/*  Breadcrumb ------------------------------- */
+
+#breadcrumb {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Lexend', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+#breadcrumb a {
+    color: black;
+    text-decoration: none;
+}
+
+#breadcrumb span {
+    padding: 5px;
+}
+
+/* Filter --------------------------------------- */
+
+#catalogFilter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 0;
+}
+
+.filterContent {
+    border-radius: 5px;
+    padding: 0;
+}
+
+#priceSelect {
+    border-radius: 10px;
+    padding: 2px 5px;
+    margin-left: 5px;
+    color: black;
+}
+
+/* Catalog content --------------------------------------- */
+
+#catalogContent {
+    padding: 2% 3%;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+}
+
+/* Catalog nav --------------------------------------- */
+
+#catalogNav {
+    padding: 2% 0%;
+}
+
+.catalogNavContainer {
+    width: 100%;
+}
+
+#catalogNav ul {
+    list-style: none;
+    padding-left: 0;
+    display: block;
+}
+
+.mainCat {
+    font-weight: bold;
+}
+
+.mainCat:not(#dinoCat) {
+    padding-top: 1.5em;
+}
+
+#catalogNav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 1% 10%;
+}
+
+#catalogNav a:hover {
+    color: white;
+    background-color: #424242;
+}
