@@ -6,7 +6,7 @@ h1, h2, h3, h4 {
     font-family: 'Lexend', Arial, sans-serif;
 }
 
-p, a, table, ul {
+p, a, table, ul, .text {
     font-family: 'Jaldi', Arial, sans-serif;
     font-size: 20px;
 }
@@ -78,7 +78,11 @@ a:hover {
 
 /*  Breadcrumb ------------------------------- */
 
-#breadcrumb {
+.contentTop {
+    min-height: 50px;
+}
+
+.breadcrumb {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -87,12 +91,16 @@ a:hover {
     text-transform: uppercase;
 }
 
-#breadcrumb a {
+.breadcrumb a {
     color: black;
     text-decoration: none;
 }
 
-#breadcrumb span {
+.breadcrumb a:hover {
+    color: #71B48D;
+}
+
+.breadcrumb span {
     padding: 5px;
 }
 
@@ -153,4 +161,14 @@ a:hover {
     bottom: 5%;
     right: 5%;
     opacity: 90%;
+}
+
+/* Cross-promo ----------------------------------- */
+
+.crossPromo {
+    margin-top: 25px;
+}
+
+.crossPromo h2 {
+    text-align: center;
 }
