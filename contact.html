@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Dino Mania</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style-contact.css">
+</head>
+
+<body>
+    <main-header></main-header>
+    <main>
+        <div id="contactContainer">
+            <!-- Image de contact -->
+            <figure>
+                <img src="images/contact-image.jpg" alt="Dinosaure support client">
+            </figure>
+            <!-- Formulaire de contact -->
+            <section id="contactForm">
+                <h1>Nous contacter</h1>
+                <form action="" method="get">
+                    <div class="contactItem">
+                        <label for="fname">Prénom</label>
+                        <input type="text" name="contactFirstName" id="fname" required placeholder="Jean-Eude">
+                    </div>
+                    <div class="contactItem">
+                        <label for="lname">Nom</label>
+                        <input type="text" name="contactLastName" id="lname" required placeholder="Maurice">
+                    </div>
+                    <div class="contactItem">
+                        <label for="email">Votre e-mail</label>
+                        <input type="email" name="contactMail" id="email" required placeholder="adresse@mail.com">
+                    </div>
+                    <div class="contactItem">
+                        <label for="objet">Objet de votre demande</label>
+                        <select name="contactObject" id="object">
+                            <option value="object1">Problème de commande</option>
+                            <option value="object2">Renseignement commercial</option>
+                            <option value="object3">Demande presse</option>
+                        </select>
+                    </div>
+                    <div class="contactItem">
+                        <label for="message">Votre message</label>
+                        <textarea name="contactMessage" id="message"></textarea>
+                    </div>
+                    <div class="contactItem">
+                        <input id="contactSend" type="submit" value="Envoyer" class="editButton">
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+    <main-footer></main-footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

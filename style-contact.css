@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+}
+
+#contactContainer figure {
+    width: 70%;
+    margin: 0;
+    padding-right: 2%;
+}
+
+#contactContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#contactForm {
+    width: 30%;
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+}
+
+.contactItem {
+    margin-bottom: 2%;
+}
+
+input, select, textarea {
+    border-radius: 15px;
+    border: 1px solid #71B48D;
+    padding: 5px;
+}
+
+input {
+    width: 80%;
+}
+
+textarea {
+    font-family: 'Jaldi', Arial, sans-serif;
+    font-size: large;
+    line-height: 100%;
+    width: 75%;
+    height: 150px;
+    resize: none;
+    padding: 15px;
+}
+
+#contactSend {
+    width:auto;
+}
