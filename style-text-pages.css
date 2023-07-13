@@ -1,0 +1,44 @@
+/* Generic styles for text pages --------------------------------------------*/
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 70%;
+}
+
+/* Internal page nav ------------------------------------------------------ */
+
+.internalNav a {
+    display: inline-block;
+    padding: 0 1%;
+    border-left: 1px solid #D9D9D9;
+}
+
+.internalNav a:first-child {
+    padding: 0 1% 0 0;
+    border: none;
+}
+
+/* Back to top button ------------------------------------------------------ */
+
+#backToTop {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    padding: ;
+}
+
+#backToTop figure {
+    padding: 5px;
+    border-radius: 25px;
+}
+
+#backToTop figure:hover {
+    background-color: #D9D9D9;
+    transition: 0.5ms;
+}
