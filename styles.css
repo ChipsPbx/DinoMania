@@ -2,6 +2,13 @@
 
 @import url(https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap);
 
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Lexend', Arial, sans-serif;
 }
@@ -24,9 +31,142 @@ a:hover {
     color: #424242;
 }
 
-.linkSelected {
-    font-weight: bold;
-    pointer-events: none;
+/* Main header ----------------------------------------------------------------------- */
+
+#mainHeader {
+    width: 100%;
+    background-color: black;
+    /* position: absolute;
+    top: 0;
+    margin-top: 0; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mainHeader figure {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainheader a:link {
+    font-family: 'Jaldi', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#logo {
+    width: 20%;
+    height: 40px;
+}
+
+#dinomania {
+    height: 100%;
+}
+
+#mainHeader form {
+    width: 60%;
+    margin-right: auto;
+}
+
+#mainHeader input {
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 2%;
+}
+
+#icon a {
+    font-family: none;
+}
+
+#icon {
+    height: 50px;
+    width: 10%;
+    display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+    #logo {
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    #mainHeader {
+        flex-wrap: wrap;
+    }
+    #mainHeader .headerBlock:nth-child(1) {
+        order: 1;
+    }
+    #mainHeader .headerBlock:nth-child(2) {
+        order: 3;
+    }
+    #mainHeader .headerBlock:nth-child(3) {
+        order: 2;
+    }
+    #icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 15px;
+    }
+    #mainHeader input {
+        font-size: medium;
+    }
+
+}
+
+/* Main navigation ----------------------------------------------------------------------------- */
+
+#mainNav {
+    width: 100%;
+    background-color: #345140;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainNav ul {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+}
+
+#mainNav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 2%;
+    margin: 0;
+}
+
+#mainNav a {
+    color: white;
+    font-family: 'Lexend', Arial, sans-serif;
+    font-size: smaller;
+}
+
+#mainNav li:hover {
+    border: none;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 85%, 0.2);
+    transition: 0, 4ms;
+}
+
+@media screen and (max-width: 800px) {
+    #mainNav a {
+        font-size: small;
+    }
 }
 
 /* Buttons ------------------------------------------------------------- */
@@ -89,6 +229,11 @@ a:hover {
     align-items: center;
     font-family: 'Lexend', Arial, sans-serif;
     text-transform: uppercase;
+}
+
+.linkSelected {
+    font-weight: bold;
+    pointer-events: none;
 }
 
 .breadcrumb a {

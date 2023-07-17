@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Composants</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="style-components.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="col-3">Logo</div>
-                    <div class="col-6">Barre de recherche</div>
-                    <div class="col-3">Espace client</div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <ul>
-                            <li>Nouveautés</li>
-                            <li>Catalogue</li>
-                            <li>Accessoires</li>
-                            <li>Nourriture</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+<body>
+    <header id="mainHeader">
+        <figure id="logo" class="headerBlock">
+            <a href="./index.html">
+                <img src="./images/logo-dinomania-w.png" alt="logo" id="dinomania" />
+            </a>
+        </figure>
+        <form action="" class="headerBlock">
+            <input type="search" name="search" id="search" placeholder="Trouvez le dino de vos rêves..." />
+        </form>
+        <figure id="icon" class="headerBlock">
+            <a href="">
+                <img src="./icons/Icon_profil.png" alt="login" />
+            </a>
+            <a href="">
+                <img src="./icons/panier.png" alt="shop" />
+            </a>
+        </figure>
+    </header>
+    <nav id="mainNav">
+            <ul>
+                <li><a href="#">Nouveautés</a></li>
+                <li><a href="/cat-dinos.html">Dinosaures</a></li>
+                <li><a href="/cat-accessories.html">Accessoires</a></li>
+                <li><a href="/cat-food.html">Nourriture</a></li>
+            </ul>
+    </nav>
 </body>
+
 </html>

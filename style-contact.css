@@ -1,14 +1,7 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 #contactContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100vw;
 }
 
 #contactContainer figure {
@@ -40,8 +33,10 @@ label {
     margin-bottom: 2%;
 }
 
-input, select, textarea {
-    border-radius: 15px;
+input,
+select,
+textarea {
+    border-radius: 20px;
     border: 1px solid #71B48D;
     padding: 5px;
 }
@@ -61,5 +56,18 @@ textarea {
 }
 
 #contactSend {
-    width:auto;
+    width: auto;
+}
+
+/* Media properties ------------------------------------------------------- */
+
+@media screen and (max-width: 800px) {
+    
+    #contactContainer {
+        flex-wrap: wrap;
+    }
+
+    #contactForm {
+        width: 70%;
+    }
 }

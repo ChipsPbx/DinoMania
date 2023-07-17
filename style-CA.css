@@ -1,14 +1,10 @@
 
 /* Styles Page Compte client ---------------------------------------------------- */
 
-body {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
 .flex {
     display: flex;
     flex-direction: row;
+    padding: 0 10%;
 }
 
 
