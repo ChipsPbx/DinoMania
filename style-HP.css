@@ -7,14 +7,14 @@
 }
 
 section {
-    padding: 5% 5%;
+    padding: 1% 5% 2% 5%;
 }
 
 /* Hero Header ------------------------------------------ */
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(images/hero-image.jpg);
-    min-height: 300px;
+    min-height: 350px;
     height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,6 +49,11 @@ section {
     padding: 20px 0px;
 }
 
+.trustContent h3 {
+    padding: 1%;
+    margin-bottom: 5%;
+}
+
 .trustContent h4 {
     font-size: medium;
 }
@@ -56,6 +61,11 @@ section {
 #trustpilot {
     width: auto;
     height: 60px;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
 }
 
 #profile img {
@@ -73,6 +83,10 @@ section {
 }
 
 /* Subscribe ---------------------------------------------- */
+
+#subscribePromo {
+    padding-top: 2%;
+}
 
 .subscribeField {
     display: flex;
