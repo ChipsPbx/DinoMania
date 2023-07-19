@@ -82,7 +82,7 @@ body {
         justify-content: center;
         align-items: center;
     }
-    form {
+    #mainHeader form {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
@@ -137,3 +137,52 @@ body {
         font-size: small;
     }
 }
+
+/* Footer boostrap ---------------------------------------------------------- */
+
+.footerBoostrap {
+    background-color: #0E0E0E;
+    color: white;
+    padding: 25px 0;
+}
+
+.footerBoostrap h3 {
+    font-size: x-large;
+}
+
+.colFooter {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLogo img {
+    width: 100%;
+    max-width: 250px;
+    padding-bottom: 20px;
+}
+
+.footerBoostrap ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#social figure {
+    display: inline;
+    margin-right: 10px;
+}
+
+#social img {
+    height: 25px;
+}
+
+/* Footer flexbox ------------------------------------------------------------------ */
+

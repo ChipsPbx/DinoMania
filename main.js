@@ -3,32 +3,7 @@
 class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <header id="mainHeader">
-        <figure id="logo" class="headerBlock">
-            <a href="./index.html">
-                <img src="./images/logo-dinomania-w.png" alt="logo" id="dinomania" />
-            </a>
-        </figure>
-        <form action="" class="headerBlock">
-            <input type="search" name="search" id="search" placeholder="Trouvez le dino de vos rêves..." />
-        </form>
-        <figure id="icon" class="headerBlock">
-            <a href="/account.html">
-                <img src="./icons/Icon_profil.png" alt="login" />
-            </a>
-            <a href="/cart.html">
-                <img src="./icons/panier.png" alt="shop" />
-            </a>
-        </figure>
-        </header>
-        <nav id="mainNav">
-                <ul>
-                    <li><a href="#">Nouveautés</a></li>
-                    <li><a href="/cat-dinos.html">Dinosaures</a></li>
-                    <li><a href="/cat-accessories.html">Accessoires</a></li>
-                    <li><a href="/cat-food.html">Nourriture</a></li>
-                </ul>
-        </nav>
+        HTML header
         `
     }
 }
@@ -36,7 +11,45 @@ class Header extends HTMLElement {
 class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        // HTML footer ici
+        <footer id="mainFooter">
+        <section id="mainFooterContainer">
+            <figure id="mainFooterLogo">
+                <img src="images/logo-dinomania-w.png" alt="Logo DinoMania">
+            </figure>
+            <nav id="mainFooterNav">
+                <div class="mainFooterBlock">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="/about.html">A propos</a></li>
+                        <li><a href="#">Plan du site</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="mainFooterBlock">
+                    <h3>Légal</h3>
+                    <ul>
+                        <li><a href="/disclaimer.html">Mentions légales</a></li>
+                        <li><a href="/cgv.html">CGV</a></li>
+                        <li><a href="/cookies.html">Cookies</a></li>
+                    </ul>
+                </div>
+                <div id="mainFooterSocial" class="mainFooterBlock">
+                    <h3>Social</h3>
+                    <div id="mainFooterIcons">
+                        <figure>
+                            <a href="https://twitter.com/" target="_blank"><img src="icons/icon-twitter.svg" alt="Logo Twitter"></a>
+                        </figure>
+                        <figure>
+                            <a href="https://www.instagram.com/" target="_blank"><img src="icons/icon-instagram.svg" alt="Logo Instagram"></a>
+                        </figure>
+                        <figure>
+                            <a href="https://www.youtube.com/" target="_blank"><img src="icons/icon-yt.svg" alt="Logo YouTube"></a>
+                        </figure>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </footer>
         `
     }
 }

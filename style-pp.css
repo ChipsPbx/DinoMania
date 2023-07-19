@@ -1,7 +1,7 @@
 /* Product image -------------------------------------------------- */
 
 #productImageContainer {
-    padding: 0% % 2% 0%;
+    padding-bottom: 2%;
 }
 
 .productPageImage {
@@ -62,7 +62,7 @@
 /* More info ------------------------------------------------------------- */
 
 .moreInfoContainer {
-    margin: 2% 0%;
+    margin: 25px 0;
     background-color: #D9D9D9;
 }
 
