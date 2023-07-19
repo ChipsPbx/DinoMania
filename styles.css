@@ -38,7 +38,95 @@ a:hover {
 
 /* Main header ----------------------------------------------------------------------- */
 
+#mainHeader {
+    background-color: #0E0E0E;
+    padding: 5px 0;
+}
 
+#mainHeader .bloc {
+    margin: 5px 0;
+}
+
+#mainHeader nav {
+    margin: 0 10%;
+}
+
+#dinomania {
+    height: 100%;
+    width: 250px;
+}
+
+#mainHeader input {
+    padding-left: 10px;
+    font-size: large;
+}
+
+#mainHeader input::placeholder {
+    padding-left: 10px;
+}
+
+#mainHeader .logo {
+    margin: 0;
+}
+
+.logo img {
+    max-width: 250px;
+}
+
+#mainHeader input {
+    border-radius: 25px;
+    border: none;
+    margin-top: px;
+}
+
+#mainHeaderIcons {
+    padding-bottom: 5px;
+}
+
+#mainHeaderIcons img {
+    height: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        flex-wrap: wrap;
+    }
+
+    #mainHeader .bloc:nth-child(1) {
+        order: 1;
+    }
+
+    #mainHeader .bloc:nth-child(2) {
+        order: 3;
+    }
+
+    #mainHeader .bloc:nth-child(3) {
+        order: 2;
+    }
+
+    #mainHeader form {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 10px;
+    }
+
+    /* #icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    #icon img {
+        width: 100%;
+    }
+    #dinomania{
+        width: 100% !important;
+    }
+   .logo{
+    width: 70%;
+   }
+}
 
 /* Main navigation ----------------------------------------------------------------------------- */
 
@@ -50,6 +138,9 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 #mainNav ul {

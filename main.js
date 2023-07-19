@@ -3,7 +3,28 @@
 class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        HTML header
+        <header id="mainHeader" class="container-fluid">
+        <nav class="d-flex justify-content-between align-items-center ">
+            <figure class="bloc logo">
+                <a href="/index.html"><img src="images/logo-dinomania-w.png" alt="" id="dinomania" class=""></a>
+            </figure>
+            <form action="" class="w-100 d-flex justify-content-center bloc">
+                <input type="search" placeholder="Touvez le dinosaure de vos rêves..." class="w-75">
+            </form>
+            <div id="mainHeaderIcons" class="d-flex bloc" >
+                <a href="/account.html"><img src="icons/Icon_profil.png" alt="Icône compte client"></a>
+                <a href="/cart.html"><img src="icons/panier.png" alt="Icône panier"></a>
+            </div>
+        </nav>
+    </header>
+    <nav id="mainNav">
+        <ul>
+            <li><a href="#">Nouveautés</a></li>
+            <li><a href="/cat-dinos.html">Dinosaures</a></li>
+            <li><a href="/cat-accessories.html">Accessoires</a></li>
+            <li><a href="/cat-food.html">Nourriture</a></li>
+        </ul>
+    </nav>
         `
     }
 }
