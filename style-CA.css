@@ -1,6 +1,10 @@
 
 /* Styles Page Compte client ---------------------------------------------------- */
 
+#customerContainer {
+    margin-top: 2%;
+}
+
 .flex {
     display: flex;
     flex-direction: row;
@@ -13,7 +17,7 @@
 #accountContent {
     padding: 50px;
     padding-top: 5px;
-    max-width: 70%;
+    width: 70%;
 }
 
 #accountContent h2 {
@@ -30,6 +34,11 @@
 .accountSection {
     margin-top: 60px;
     margin-bottom: 30px;
+    width: 100%;
+}
+
+.subsection {
+    margin: 2%;
 }
 
 .orderTable {
@@ -57,7 +66,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     position: sticky;
-    top: 20px;
+    top: 40px;
 }
 
 .accountNav a {
@@ -82,11 +91,11 @@
 
 /* Media queries -------------------------------------------------------------- */
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .accountNav {
         display: none;
     }
-    .accountContent {
-        max-width: 100%;
+    #accountContent {
+        width: 100%;
     }
 }

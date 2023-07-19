@@ -8,10 +8,14 @@ main {
 
 .containerText {
     width: 70%;
-    margin-bottom: 5%;
+    margin: 3% 0;
 }
 
 /* Internal page nav ------------------------------------------------------ */
+
+.internalNav {
+    margin: 3% 0;
+}
 
 .internalNav a {
     display: inline-block;
