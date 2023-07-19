@@ -34,6 +34,14 @@
     border-radius: 5px;
 }
 
+.accessory {
+    background-color: #db874f;
+}
+
+.careproduct {
+    background-color: #dd7272;
+}
+
 /* Catalog nav --------------------------------------- */
 
 #catalogNav {

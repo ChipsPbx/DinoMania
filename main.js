@@ -22,7 +22,7 @@ class Header extends HTMLElement {
             <li><a href="#">Nouveautés</a></li>
             <li><a href="/cat-dinos.html">Dinosaures</a></li>
             <li><a href="/cat-accessories.html">Accessoires</a></li>
-            <li><a href="/cat-food.html">Nourriture</a></li>
+            <li><a href="/cat-care.html">Care</a></li>
         </ul>
     </nav>
         `

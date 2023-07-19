@@ -203,6 +203,7 @@ a:hover {
 }
 
 .mainFooterBlock h3 {
+    color: #71B48D;
     font-size: x-large;
 }
 
@@ -362,6 +363,10 @@ a:hover {
     height: 300px;
     width: auto;
     position: relative;
+}
+
+.productContainer:hover {
+    transform: scale(105%);
 }
 
 .productImage {
