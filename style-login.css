@@ -16,6 +16,7 @@
 
 .e1 {
   width: 70%;
+  max-height: 1000px;
   flex: 2;
   display: flex;
   justify-content: center;
