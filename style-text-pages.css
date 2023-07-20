@@ -8,7 +8,11 @@ main {
 
 .containerText {
     width: 70%;
-    margin: 3% 0;
+    margin: 25px 0;
+}
+
+.containerText p {
+    margin-bottom: 2%;
 }
 
 /* Internal page nav ------------------------------------------------------ */
