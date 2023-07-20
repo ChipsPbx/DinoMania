@@ -303,6 +303,8 @@ a:hover {
 .lightButton:hover {
     color: black;
     background-color: white;
+    transform: scale(110%);
+    transition: 0.5ms;
 }
 
 .editButton {
