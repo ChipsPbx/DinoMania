@@ -18,18 +18,18 @@ main {
 }
 
 .internalNav a {
-    color: white;
+    color: black;
+    background-color: #D9D9D9;
     font-size: medium;
     display: inline-block;
     padding: 0 1%;
     margin: 5px 0;
-    background-color: #424242;
     border-radius: 15px;
 }
 
 .internalNav a:hover {
-    color: black;
-    background-color: #D9D9D9;
+    color: white;
+    background-color: #424242;
 }
 
 /* Back to top button ------------------------------------------------------ */
