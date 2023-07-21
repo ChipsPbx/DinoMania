@@ -50,7 +50,7 @@ class Footer extends HTMLElement {
                     <h3>Légal</h3>
                     <ul>
                         <li><a href="./disclaimer.html">Mentions légales</a></li>
-                        <li><a href="./cgv.html">CGV</a></li>
+                        <li><a href="./CGV.html">CGV</a></li>
                         <li><a href="#">Cookies</a></li>
                     </ul>
                 </div>
